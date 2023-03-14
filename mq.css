@@ -8,12 +8,13 @@ body{
 
 #header{
   height:120px;
-  background-colour:#000000
+  width:100%;
+  background-colour:#80D7F8
 }
 
 #header p{
   font-size:250%;
   font-weight:bold;
   text-align:center;
-  color:#FFFFFF
+  color:#000080
 }
