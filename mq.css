@@ -24,10 +24,10 @@ body{
     background-color:#80D7F8; 
 }
 
-/* Text in the header is right aligned, dark blue in colour, large and
+/* Text in the header is centred, dark blue in colour, large and
    bold.  The "margin" parameters adjust its positioning slightly. */
 #header p{
-    float:right;
+    float:center;
     font-size:250%;
     font-weight:bold;
     color:#000080;
