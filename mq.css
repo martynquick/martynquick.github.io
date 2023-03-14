@@ -7,10 +7,11 @@ body{
 }
 
 #header{
+  top:0px;
+  left:0px;
   height:120px;
   width:100%;
-  background-color:#80D7F8;
-  padding:0
+  background-color:#80D7F8
 }
 
 #header p{
