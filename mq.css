@@ -2,6 +2,10 @@
 
 /* Under revision since it stopped working when switched to Github!! */
 
+body{
+  font-family:palatino
+}
+
 #header{
   text-align:center
 }
