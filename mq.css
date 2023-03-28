@@ -52,3 +52,7 @@ a:hover{
 	text-decoration:none;
 	color:#E85857;
 }
+
+a:visited{
+	color:black;	
+}
