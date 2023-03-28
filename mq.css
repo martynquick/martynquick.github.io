@@ -40,6 +40,15 @@ body {
 
 .navbar a{
 	display:block;
-	color:#FFFFFF;
 	text-decoration:none;
+}
+
+a:link{
+	text-decoration:none;
+	color:black;
+}
+
+a:hover{
+	text-decoration:none;
+	color:#E85857;
 }
