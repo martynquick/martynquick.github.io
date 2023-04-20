@@ -43,6 +43,10 @@ body {
 	text-decoration:none;
 }
 
+h3 {
+	padding-top: 20px;	
+}
+
 a:link{
 	text-decoration:none;
 	color:black;
