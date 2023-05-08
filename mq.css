@@ -34,17 +34,28 @@ body {
 .navbar li{
 	float:left;
 	color:white;
-	padding:14px 20px;
 	text-align:center;
 }
 
-.navbar a{
-	display:block;
-	text-decoration:none;
+.navbar li.active{
+    padding:14px 20px;
 }
 
-h2 {
-	padding-top: 75px;	
+.navbar li.none{
+    padding:14px 20px;
+}
+
+.navbar li a{
+    display:block;
+    padding:14px 20px;
+    text-decoration:none;
+    background-color:black;
+    color:white;
+}
+
+.navbar li a:hover{
+    background-color:red;
+    color:white;
 }
 
 a:link{
@@ -68,5 +79,26 @@ a:hover{
 }
 
 .other{
-	font-size:85%;	
+    font-size:85%;
+}
+
+/* Lists used for publications: the main list of publications is
+   numbered in reverse order - which is what the first bits of code
+   achieve.  The rest are ordered normally */
+ol.references > li:before{
+    content:counter(reverse) ".";
+    left:70px;
+    position:absolute;
+}
+
+ol.references li{
+    list-style-type:none;
+    padding-bottom:10px;
+    counter-increment:reverse -1;}
+
+/* Typographical settings for references */
+.journal {font-style: italic;}
+.booktitle {font-style: italic;}
+.volume {font-weight: bold;}
+
 }
